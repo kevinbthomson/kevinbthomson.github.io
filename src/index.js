@@ -1,5 +1,6 @@
 import './style.scss';
 
+import consoleLog from "./consoleLog";
 
-// log to the console
-console.log('javascript is loading');
+console.info("Hello, webpack");
+consoleLog();
