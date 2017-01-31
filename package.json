@@ -27,8 +27,7 @@
     "build": "npm-run-all prod:*",
     "prod:sass-prod": "node-sass --output-style compressed build/css/style.css --output css",
     "prod:js-uglify": "uglifyjs build/js/script.js --compress --mangle --output js/script.js",
-    "prod:html-minify": "html-minifier --collapse-whitespace build/index.html > index.html",
-    "prod:serve": "live-server index.html"
+    "prod:html-minify": "html-minifier --collapse-whitespace build/index.html > index.html"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
