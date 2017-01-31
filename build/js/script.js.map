@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/js/index.js"],"names":[],"mappings":";;AACA,IAAI,gBAAgB,qBAApB;AACA,QAAQ,GAAR,CAAY,aAAZ","file":"script.js","sourcesContent":["\nlet theLogMessage = \"what's the message?\";\nconsole.log(theLogMessage);\n"]}
