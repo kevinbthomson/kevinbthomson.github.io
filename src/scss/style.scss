@@ -1,5 +1,7 @@
+$dark: darkred;
+
 body {
-    background: lime;
+    background: yellow;
     padding-top: 50px;
 }
 
@@ -11,6 +13,6 @@ body {
     background-color: #eee;
 
     h1 {
-        color: lime;
+        color: $dark;
     }
 }
